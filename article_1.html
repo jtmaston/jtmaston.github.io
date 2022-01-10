@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog - Tailsaw </title>
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.3/css/bulma.min.css" />
+  <link rel="stylesheet" href="css/tabs.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bulma-divider.min.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+  	body {font-family: 'Nunito', sans-serif;};
+    nav.navbar {
+      height: 6rem !important;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06) !important;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- START NAV -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <span class="navbar-burger burger" data-target="navbarMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <div class=" navbar-item">
+          </div>
+          <a class="navbar-item is-active is-size-5 has-text-weight-semibold">
+            Home
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAV -->
+
+
+
+  <!-- Image -->
+  <section class="hero">
+    <div class="hero-body" style="background-color:	#44485a">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            <figure class="image is-16by9">
+              <img src="images/distant.jpg" alt="">
+            </figure>
+          </div>
+        </div>
+
+        <div class="tabs is-boxed is-centered main-menu" id="nav" ;">
+          <ul>
+              <li data-target="en" id="1" class="is-active"">
+                  <a style="background-color: #1f2c6c">
+                      <span  style="color: white;">En</span>
+                  </a>
+              </li>
+              <li data-target="ro" id="2">
+                  <a style="background-color: #1f2c6c">
+                      <span  style="color: white;">Ro</span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+
+        <section class="section">
+          <div class="tab-pane is-active" id="en">
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <div class="content is-medium">
+                  <h2 class="subtitle is-4" style="color: white;">January 11th, 2022</h2>
+                  <h1 class="title" style="color: white;">Why I started a blog</h1>
+                  <p style="color: white;">The idea of a blog popped into my mind quite a while ago, to be frank. A simple website,
+                    devoid of eye-candy, filled with my random thoughts, up there for all those who would like to see them.
+                    And here we are, thanks to GitHub's generous site hosting policy. I've always wondered: what does it feel like?
+                    to finally have a place to express your feelings and really bring meaning to what you say. To be able to be seen
+                    and heard, even if it means exposing yourself to the that comes from the fact that <i>others</i> can now peer into
+                    your deepest depths...
+                    <br>
+                    Somewhat unintuitively ( at least for me ), building a blog meant meeting head-on with one of my most terrifying
+                    enemies: web design. Despite using templates available online ( thanks, Bulma! ), I found myself entangled again in
+                    this mess of spaghetti syntax, unintelligible formatting and the sheer HORROR of javascript. For those of you who have
+                    never had to encounter these things, I envy you. Even so, I'm proud of the little thing I've started building. Sure,
+                    some of the colours are off, maybe they contrast a bit too much, but at the end of the day, it's about as messy as my own
+                    mind, so I'm happy.
+                    <br>
+                    But I digress. Moving back, why <i>did</i> I make a blog? The very concept seems antequated in this day and age. After all,
+                    who has blogs nowadays? Who spends their time and effort reading hundreds and hundreds of words about a different person's
+                    life? No, dearest reader, fear not. I will be touching very little on my own life, and using this more as an outlet to discuss
+                    the various things I'm interested in, the many, many <i>utterly random</i> ideas I have, the incredible projects I've been up
+                    to, and so on and so forth.
+                    <br><br>
+                    You've been warned. Here be monsters.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="ro">
+            <div class="columns">
+              <div class="column is-8 is-offset-2">
+                <div class="content is-medium">
+                  <h2 class="subtitle is-4" style="color: white;">11 ianuarie, 2022</h2>
+                  <h1 class="title" style="color: white;">De ce am început un blog</h1>
+                  <p style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;Ideea să încep un blog mi-a venit acum ceva vreme, dacă stau să mă gândesc. Un site simplu,
+                    lipsit de estetică, populat de ideile mele, aparent la întâmplare, pregătit să primească drept vizitatori pe oricine
+                    ar vrea să le vadă. Și, iată-ne aici, grație generozității platformei GitHub.
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; Mereu m-am întrebat: oare cum se simte să ai un loc unde să poți să te exprimi liber, un loc unde
+                    tot ceea ce spui să aibă o însemnătate? Să poți să fii văzut și auzit, chiar dacă asta înseamnă să te expui la tot ceea ce vine
+                    din faptul că <i>alții</i> te văd așa cum ești cu adevărat, înțelegând omul din spatele măștii.
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp; În mod amuzant și totodată neașteptat ( în retrospectivă, ar fi trebuit să mă aștept la asta ), ideea de a construi
+                    un blog însemna să mă reîntânesc cu unul dintre vrășmașii mei cei mai de temut: design-ul web. Chiar dacă am avut totuși ideea genială să
+                    folosesc un șablon ( mulțumesc, Bulma! :) ), m-am găsit din nou prins în pânza lipicioasă a unui limbaj de programare cu sintaxă încurcată ca
+                    un bol de spaghete, cu reguli de formatare ce probabil au sens doar pentru cei care l-au scris și am reîntâlnit OROAREA numită javascript. Dacă
+                    ați avut norocul până acum să nu vă întâlniți cu ea, vă invidiez. Chiar și așa, sunt oarecum mândru de această mică abominație de site. E la fel de
+                    ordonat ca mintea mea, deci sunt mulțumit.
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    Dar iarăși divaghez... Întorcându-ne la subiect, <i>de ce</i> am început un blog? Chiar conceptul sună a ceva antic și din epoca trecută. Până la urmă,
+                    cine face bloguri în ziua de azi? Cine petrece timp și efort, citind sute de cuvinte din povestea de viață a altcuiva? Nu, dragă cititor, nu îți face griji,
+                    voi vorbi foarte puțin despre viața mea, mai degrabă voi folosi acest site ca un loc unde să vorbesc despre lucrurile aleatorii care mă pasionează, proiectele
+                    de care mă ocup și altele de genul...
+                    <br>
+                    <br>
+                    Să nu zici că nu te-am avertizat!
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer" style="height: au">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma - Blog theme</strong> by <a href="https://gonzalojs.com">Gonzalo Gutierrez</a>. Based on the <a
+          href="http://jigsaw-blog-staging.tighten.co/">jigsaw-blog</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+  </script>
+  <script src="js/tabs.js"></script>
+</body>
+
+</html>
