@@ -1,1 +1,337 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JTMaston's Blog</title>
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/showcase.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="img/preloader.gif" alt="" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Scroll Up Button -->
+
+    <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <!-- End Scroll Up Button -->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#home">
+                  Home
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#about-me">
+                  Who am I?
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#services">
+                  My projects
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#skills">
+                  Languages and tools
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h2 class="title">Hey there!</h2>
+            <h1 class="subtitle profession">I'm Alex, welcome!</h1>
+          </div>
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">Who am I?</a>
+                  </li>
+                  <li>
+                    <a href="#services">My projects</a>
+                  </li>
+                  <li>
+                    <a href="#skills">Languages and tools</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">Who am I?</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p class="is-larger has-text-justified">
+                &emsp;&emsp;
+                <strong>
+                  First and foremost, hello! Welcome to this beautiful madness that is my blog.
+                  Here, I ( sometimes ) post about my projects,
+                  fun little activities. That out of the way, who am I? I'm 
+                  <br> ( canonically ) a steam-powered penguin dwarf, who loves tinkering,
+                  building things that have a tendency to explode or otherwise catastrophically fail.
+                </strong> 
+              </p>
+              <br />
+              <p>
+                On the side, I also write stuff. Mostly poetry, but sometimes also prose. Most of it is
+                in Romanian ( which is my native language ) but there are peices that are in English.
+                You'll find both of these linked in the top bar, under the "Creative Writing" section.
+              </p>
+              <br />
+              <div class="is-divider"></div>
+              <div class="columns about-links">
+                <div class="column">
+                  <p class="heading">
+                    <strong>Email Me</strong>
+                  </p>
+                  <p class="subheading">
+                    contact.alexandruanastasiu [ at ] gmail.com
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="subheading">
+                    Remember to replace the [ at ] with an @ symbol!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6 right-image " data-aos="fade-left">
+              <img
+                class="is-rounded"
+                src="images/board.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me Content -->
+      <!-- Begin Services Content -->
+      <div class="section-color services" id="services">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div
+              class="column is-12 about-me"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1 class="title has-text-centered section-title">My projects</h1>
+
+              <h2 class="subtitle">
+                Here's a helpful list of ongoing, completed and on hold projects that I've done / been doing in the past. 
+                I've also included some future plans for things that I'm ( hopefully ) going to learn.
+              </h2>
+              <br />
+            </div>
+            <div class="columns is-12">
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <span class="iconify" data-icon="file-icons:assembly-arm" data-width="50" data-height="50"></span>
+                <hr />
+                <h2>
+                  Had my first run-in with Assembly, working on an AARCH64 calculator. It was fun! You can find the project
+                  <a href="https://github.com/jtmaston/Assembly" class>here</a>
+                </h2>
+              </div>
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <span class="iconify" data-icon="file-icons:assembly-powerpc" data-width="50" data-height="50"></span>
+                <hr />
+                <h2>
+                  My next project still involves Assembly, but this time I'll be targetting PowerPC, to get a bit into that
+                  retro action. More updates will follow as the project progresses.
+                </h2>
+              </div>
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <span class="iconify" data-icon="file-icons:assembly-riscv" data-width="50" data-height="50"></span>
+                <hr />
+                <h2>
+                  After a look into the past, it's time for a look into the future, and I will try to learn RISC-V ASM next!
+                </h2>
+              </div>
+            </div>
+            <hr />
+            <div class="columns is-12">
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+              <span class="iconify" data-icon="akar-icons:python-fill" data-width="50" data-height="50"></span>
+                <hr />
+                <h2>
+                  One of my most complex projects to date was PenguChat, an end-to-end encrypted chat client and server written
+                  in Python. I may develop it further at a later date. You can find it <a href="https://github.com/jtmaston/PenguChat-Rewritten" class>here</a>
+                </h2>
+              </div>
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <span class="iconify" data-icon="mdi:robot-industrial" data-width="50" data-height="50"></span>
+                <hr />
+                <h2>
+                  I'm currently working on a pseudo-simulator for a robot that I am developing with a colleague from college. It's not much, meant 
+                  just to test the way this robot moves around. You can find it 
+                  <a href="https://github.com/jtmaston/DARBot-ARMSim" class>here</a>
+                </h2>
+              </div>
+              <div
+                class="column is-4 has-text-centered"
+                data-aos="fade-in"
+                data-aos-easing="linear"
+              >
+                <span class="iconify" data-icon="ant-design:code-filled" data-width="50" data-height="50"></span>
+                <hr />
+                <h2>
+                  I'm always looking forward to learning new things! Both concerning code and other stuff, I'm open to new challenges!
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Services Content -->
+      <!-- Begin Skills Content -->
+      <div class="section-light skills" id="skills">
+        <div class="container">
+          <div class="columns is-multiline">
+            <div class="column is-12 about-me">
+              <h1 class="title has-text-centered section-title">Languages and tools</h1>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>C++</h1>
+              <progress class="progress" value="70" max="100">30%</progress>
+              <h1>AARCH64 Assembly</h1>
+              <progress class="progress" value="50" max="100">30%</progress>
+              <h1>Python3</h1>
+              <progress class="progress" value="80" max="100">45%</progress>
+              <h1>Processing</h1>
+              <progress class="progress" value="50" max="100">60%</progress>
+            </div>
+            <div
+              class="column is-6"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <h1>Visual Studio Code</h1>
+              <progress class="progress" value="85" max="100">30%</progress>
+              <h1>Emacs</h1>
+              <progress class="progress" value="20" max="100">30%</progress>
+              <h1>STM32 Cube</h1>
+              <progress class="progress" value="40" max="100">45%</progress>
+              <h1>Arduino</h1>
+              <progress class="progress" value="90" max="100">60%</progress>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Skills Content -->
+      
+      
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <p>
+        <strong class="white">Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>.
+        The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+      </p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/showcase.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
